@@ -1,0 +1,17 @@
+{
+  "name": "meu_crud_prisma",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "create": "node src/courses/createCourse.js",
+    "getAll": "node src/courses/getAllCourses.js",
+    "getOne": "node src/courses/getCourseById.js",
+    "update": "node src/courses/updateCourse.js",
+    "delete": "node src/courses/deleteCourse.js",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "prisma": "^5.0.0"
+  }
+}
